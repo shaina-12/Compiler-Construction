@@ -59,7 +59,7 @@ int main(){
                 str2="";
                 flag = 1;
                 //count +=2;
-            }
+            }// Author: Shaina Mehta
             else if(str1[i]=='>' && str1[i+1]=='>'){
                 file2<<str2<<" ";
                 string str3 = ">>";
