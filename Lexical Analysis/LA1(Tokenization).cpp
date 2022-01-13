@@ -1,3 +1,4 @@
+// Author: Shaina Mehta
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -13,6 +14,7 @@ int main(){
         getline(file,words);
         string str = words;
         //cout<<str<<endl;
+        // Author: Shaina Mehta
         if(str.compare("\n")!=0){
             string s = "";
             for(int i=0;i<str.size();i++){
@@ -44,6 +46,7 @@ int main(){
     file1.open(filename1.c_str(),ios::in);
     file2.open(filename2,ios::out);
     string word;
+    // Author: Shaina Mehta
     while(file1>>word){
         string str1 = word;
         //cout<<str1<<endl;
@@ -220,6 +223,7 @@ int main(){
     bool flag = false;
     //bool flag2 = false;
     string newword;
+    // Author: Shaina Mehta
     while(file2>>newword){
         string s1 = newword;
         int n = s1.size()-1;
