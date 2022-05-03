@@ -1,0 +1,5 @@
+1. Removal of comments, extra blank spaces and Token counting 
+2. To token categorisation 
+3. Infix to postfix 
+4. Postfix to infix 
+5. Check whether a string belongs to E-> E+ E / E*E / id
