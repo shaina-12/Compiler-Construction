@@ -1,6 +1,25 @@
-// This is a single line comment
-/* This is a multi line comment */
-read ( a ) ;
-read ( b ) ;
-c = a + b ;
-print ( c ) ;
+//this is my first c++ program
+
+/* My name is */
+/* Shaina 
+Mehta */
+# include <iostream>
+using namespace std ;
+int main ( ) {
+    int a , b , c ;
+    //taking input
+    cin >> a ;
+    cin >> b ; 
+    //performing operations
+    c = a + b ;
+    //displaying the output
+    cout << c << endl ;
+    if ( a > b ) {
+        cout << a << endl ;
+    }
+    else {
+        cout << b << endl ;
+    }
+    return 0 ;
+}
+
